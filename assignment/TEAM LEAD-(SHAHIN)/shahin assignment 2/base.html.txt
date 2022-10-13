@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  {% block head %} {% endblock %}
+  <!--<link rel="stylesheet" href="static/css/style.css">-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<a href="/">Home</a>
+<a href="/signin">SIGN IN</a>
+<a href="/signup">SIGN UP</a>
+<hr><br>
+
+<div class="container"></div>
+  {% block body %} {% endblock %}
+
+
+</body>
+</html>
